@@ -18,14 +18,5 @@
   ],
   "env": {
     "NODE_ENV": "production"
-  },
-  "functions": {
-    "app/api/store/route.ts": {
-      "maxDuration": 30
-    },
-    "app/api/auth/route.ts": {
-      "maxDuration": 30
-    }
   }
 }
-
